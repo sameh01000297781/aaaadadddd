@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #7a4397;
+    font-family:"Roboto", sans-serif;
+ 
+}
+.continar{
+    width: 100%;
+    height: 100vh;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: rgba(255, 255, 255, 0.384);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 20px;
+    box-shadow: 20px 20px #521e6a ;
+    
+}
+form input{
+width: 80%;
+height: 40px;
+    font-size: 18px;
+    background-color: #7a4397;
+    font-weight: 900;
+    text-align: center;
+    color: aqua;
+    border: none;
+    box-shadow: 5px 5px black;
+    transition: 1s;
+}
+form input:last-child{
+    border-radius: 40px;
+}
+form p {
+    font-size: 30px;
+    color: #7a4397;
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start; */
+}
+form p:nth-child(6){
+    color: #7a4397;
+    font-size: 18px;
+}
+form input:hover{
+    color: #7a4397;
+    font-size: 18px;
+    background-color: aqua;
+    scale: 1.1;
+    cursor: pointer;
+
+}
+
+@media (max-width:450px ){
+form{
+    width: 300px;
+    
+}
+}
